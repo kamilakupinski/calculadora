@@ -6,6 +6,13 @@ function clean(){
     document.getElementById ('resultado').innerHTML="";
 }
 function back(){
-    var numero = document.getElementById ('resultado').innerHTML;
+    var resultado = document.getElementById ('resultado').innerHTML;
 document.getElementById('resultado').innerHTML=resultado.substring(0,rsultado.length-1);
+}
+function calcular ()
+    var reultao = document.getElementById ('resultao').innerHTML;
+    if resultado{
+        document.getElementById('resultado').innerHTML = eval(resultado);
+    }
+    else { document.getElementById ('resultado').innerHTML = "nada para calcular"
 }
